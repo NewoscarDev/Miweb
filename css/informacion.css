@@ -1,0 +1,36 @@
+.titulo-info {
+    color: white;
+    font-size: 25px;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line-white{
+    border-top: solid 2px rgb(209, 209, 209);
+    margin: auto;
+}
+
+.contenedor-sobremi h3{
+    color: white;
+    font-size: 10px;
+}
+.contenedor-sobremi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.imagen-sobremi {
+    background-image: url(../img/backgrounds/teclado.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-position: center right;
+    border-radius: 10px;
+}
